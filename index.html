@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatec Araras - Desenvolvimento Web I - Avaliação P1</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+
+    
+    ul.list{
+        padding-left: 100px;
+}
+    li.list{
+        margin: 15px
+}
+    td.professor{
+    text-align: center;
+
+}
+    td.horário{
+    text-align: center;
+}
+
+    footer.rodapé{
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-area">
+            <h1>FATEC ARARAS</h1>
+            <p>Desenvolvimento de Software Multiplataforma</p>
+        </div>
+    </header>
+
+    <!-- TODO: Escreva o menu de navegação aqui -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#competências">Competências</a</li>
+            <li><a href="#horários">Horário</a</li>
+            <li><a href="#contatp">Contato</a>/li>
+            </li>
+        </ul>
+    </nav>
+
+    </ul>
+
+
+    <!-- Conteúdo Principal da Página -->
+    <main class="grid-principal">
+
+        <!-- Área de Conteúdo Central -->
+        <section class="conteudo-principal">
+            <article class="card-secao">
+                <h2>Curso de Desenvolvimento de Software Multiplataforma</h2>
+                <p>Bem-vindo ao portal da disciplina de Desenvolvimento Web I da Fatec Araras. Utilize este ambiente para consultar informações sobre o curso e horários.</p>
+            </article>
+
+            <article class="card-secao">
+                <h3>Objetivos e Competências do Curso</h3>
+                <li>Elaboração de páginas web responsivas utilizando HTML5 e CSS3</li>
+                <li>Utilização do CSS Grid Layout e Flexbox para diagramação avançada</li>
+                <li>Desenvolvimento interativo utilizando JavaScript e manipulando o Dom</li>
+                <li>Uso de ferramentas de controle (Git e GitHub).</li>
+                <!-- TODO: Escreva a Lista de competências aqui -->
+
+            </article>
+
+
+            <article class="card-secao">
+                <h3>Horário das Disciplinas - 1º Semestre</h3>
+                <!-- TODO: Escreva a Tabela aqui -->
+                <table>
+                    <thead>
+                    <tr>
+                    <th scope="col">Dia</th>
+                    <th scope="col">Disciplina</th>
+                    <th scope="col">Professor</th>
+                    <th scope="col">Horário</th>
+                    </tr>
+                    </thead>
+<tbody> 
+
+                <tr>
+                    <td>Quinta-feira</td>
+                    <td>Desenvolvimento Web 1</td>
+                    <td>Felipe Serpeloni</td>
+                    <td>19:00 às 22h30</td>
+                </tr>
+
+                <tr>
+                    <td>Sexta-feira</td>
+                    <td>Engenharia de Sofwtare</td>
+                    <td>Lucas Donizete</td>
+                    <td>19:00 às 22h30</td>
+
+                <tr>
+                    <td>Sábado</td>
+                    <td>Design Digital</td>
+                    <td>Leonardo</td>
+                    <td>09:00 às 13:00</td>
+                </tr>
+</tbody>
+                </table>
+
+            </article>
+
+            <article class="card-secao">
+                <h3>Formulário de Atendimento ao Estudante</h3>
+                <!-- TODO: Escreva o Formulário aqui -->
+        <form>
+            <label for="Nome">Nome completo</label>
+            <input type="text"id="Nome"Name="Nome"required>
+            <br>
+    
+            <label for="Email">Email</label>
+            <input type="Email"id="Email"Name="Email"required>
+            <br>
+
+            <label for="Curso">Curso</label>
+            <select id="iCurso"name="Curso">
+            <option value="DSM">Desenvolvimento de Sofwtare Multiplataforma</option>
+            <option value="GE">Gestão Empresarial</option>
+            </select>
+            <label for="mensagem">Mensagem</label>
+            <br>
+            <textarea name="idmensagem" id="mensagem" rows="4" cols="40"></textarea>
+            <br><br>
+            <button type="submit">Enviar Solicitação</button>
+            <br><br>
+    </form>
+
+
+
+            </article>
+        </section>
+
+        <!-- Barra Lateral / Sidebar -->
+        <aside class="sidebar-avisos">
+            <h3>Quadro de Avisos</h3>
+            <div class="container-cards-avisos">
+                <div class="card-aviso">
+                    <h4>Entrega da P1</h4>
+                    <p>Suba as alterações no GitHub e envie o link do repositório no Teams até o horário limite.</p>
+                </div>
+                <div class="card-aviso">
+                    <h4>Biblioteca Virtual</h4>
+                    <p>Consulte os livros da bibliografia básica disponibilizados na plataforma acadêmica.</p>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <!-- TODO: Escreva o rodapé aqui -->
+    <footer class="rodapé">
+
+        <p>&copy;2026 Fatec Araras-Faculdade de Tecnologia de Araras "Antônio Brambilla" </p>
+        <p>Curso de Desenvolvimento de Sofwtare Multiplataforma - Disciplina Desenvolvimento Web I</p>
+        
+    </footer>
+
+</body>
+
+</html>
